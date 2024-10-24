@@ -1,12 +1,13 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ yes//
+ ] Two External Links
+[ yes ] Table
+[ yes ] Three CSS Rules
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
@@ -14,47 +15,287 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      h1 {
+        color: rgb(227, 100, 128);
+      }
+      h2 {
+        color: rgb(240, 160, 128);
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      img {
+        border: 8px solid #fbd5ab;
+      }
+      h2:hover {
+        background-color: pink;
+        color: white;
+      }
+      img {
+        border-radius: 20px;
+      }
+      body {
+        background-image: url("https://www.goodrichglobal.com/singapore/wp-content/uploads/2023/07/82081140.jpg");
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1><u>Isabel's Recipe Book</u></h1>
 
-<body>
+    <h2><u>Contents:</u></h2>
+    <ol>
+      <li><a href="?">Recipe #1 Pesto Pasta:</a></li>
+      <li><a href="?">Recipe #2 Lemon Loaf:</a></li>
+      <li><a href="?">Recipe #3 Garlic Bread:</a></li>
+    </ol>
 
-  <h1>____'s Recipe Book</h1>
+    <h2 id="?"><u>Recipe #1 Pesto Pasta:</u></h2>
+    <img
+      src="https://www.momskitchenhandbook.com/wp-content/uploads/2017/04/Basil-Mint-Pesto-with-Asparagus-and-Peas-2-250x250.jpg"
+      width="200"
+    />
+    <ul>
+      <li>Time: 15 min</li>
+      <li>Serves: 1-2</li>
+    </ul>
 
-  <h2>Contents:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Olive oil</td>
+          <td>2 tablespoon</td>
+        </tr>
+        <tr>
+          <td>Pesto Sauce</td>
+          <td>2 ½ tablespoons</td>
+        </tr>
+        <tr>
+          <td>Package Of Pasta</td>
+          <td>16 ounces</td>
+        </tr>
+        <tr>
+          <td>Parmasean Cheese</td>
+          <td>2 tablespoons</td>
+        </tr>
+        <tr>
+          <td>Salt/Pepper</td>
+          <td>Your choosing</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong><u>Directions:</u></strong>
+      <li><strong>Step 1:</strong> Gather all ingredients</li>
+      <li>
+        <strong>Step 2:</strong> Fill a large pot with lightly salted water and
+        bring to a rolling boil. Stir in pasta and return to a boil. Cook pasta
+        uncovered, stirring occasionally, until tender yet firm to the bite,
+        about 8 to 10 minutes. Drain and transfer into a large bowl.
+      </li>
+      <li>
+        <strong>Step 3:</strong> Move on to making the sauce by stirring in
+        pesto, salt, and pepper until warmed through.
+      </li>
+      <li>
+        <strong>Step 4:</strong> Add your pesto sauce to the hot pasta; stir in
+        grated cheese and toss well to coat.
+      </li>
+    </p>
+    <ul>
+      <em
+        >Source:
+        <a href="https://www.allrecipes.com/recipe/11887/pesto-pasta/"
+          >https://www.allrecipes.com/recipe/11887/pesto-pasta/</a
+        ></em
+      >
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+      <h2><u>Recipe #2 Lemon Loaf:</u></h2>
+      <img
+        src="https://www.recipetineats.com/uploads/2023/06/Glazed-lemon-loaf_4.jpg"
+        width="200"
+        <ul
+      />
+      <li>Time: 1 hour 15 min</li>
+      <li>Serves: 8</li>
+    </ul>
 
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Butter</td>
+          <td>½ cup</td>
+        </tr>
+        <tr>
+          <td>White sugar</td>
+          <td>½ cup</td>
+        </tr>
+        <tr>
+          <td>Eggs</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Sour cream</td>
+          <td>½ cup</td>
+        </tr>
+        <tr>
+          <td>Vanilla Extract</td>
+          <td>1 teaspoon</td>
+        </tr>
+        <tr>
+          <td>Freshly grated lemon zest</td>
+          <td>1 teaspoon</td>
+        </tr>
+        <tr>
+          <td>All-purpose flour</td>
+          <td>1 ½ cups</td>
+        </tr>
+        <tr>
+          <td>Cornstarch</td>
+          <td>¼ cup</td>
+        </tr>
+        <tr>
+          <td>Salt</td>
+          <td>½ teaspoon</td>
+        </tr>
+        <tr>
+          <td>Baking soda</td>
+          <td>½ teaspoon</td>
+        </tr>
+        <tr>
+          <td>Confectioners sugar</td>
+          <td>2 cups</td>
+        </tr>
+        <tr>
+          <td>Lemon juice</td>
+          <td>3 tablespoons</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong><u>Directions:</u></strong>
+      <li>
+        <strong>Step 1:</strong> Preheat the oven to 325 degrees F (165 degrees
+        C). Grease an 8x4-inch loaf pan.
+      </li>
+      <li>
+        <strong>Step 2:</strong> Beat butter and sugar with an electric mixer in
+        a large bowl until lighter in color and fluffy. Add eggs one at a time,
+        beating well after each addition. Beat in sour cream, vanilla, and lemon
+        zest; beat for 2 minutes. Combine flour, cornstarch, salt, and baking
+        soda in a separate bowl. Add flour mixture to butter mixture, beating
+        until just incorporated. Pour batter into the prepared pan.
+      </li>
+      <li>
+        <strong>Step 3:</strong> Bake in the preheated oven until a toothpick
+        inserted into the center comes out clean, 30 to 35 minutes. Cool in the
+        pan for 5 minutes before removing to a wire rack to cool.
+      </li>
+      <li>
+        <strong>Step 4:</strong> To make glaze: Whisk confectioners' sugar and
+        lemon juice together in a medium bowl until smooth. Place cooled cake on
+        a serving plate and pour glaze over entire cake; allow glaze to dry
+        before serving.
+      </li>
+    </p>
+    <em
+      >Source:
+      <a href="https://www.allrecipes.com/recipe/176636/lemon-loaf-cake/"
+        >https://www.allrecipes.com/recipe/176636/lemon-loaf-cake/</a
+      ></em
+    >
+    <h2>
+      <u>Recipe #3 Garlic bread:</u>
+    </h2>
+    <img
+      src="https://www.ambitiouskitchen.com/wp-content/uploads/2023/02/Garlic-Bread-4.jpg"
+      width="200"
+    />
+    <ul>
+      <li>Time: 35 min</li>
+      <li>Serves: 8</li>
+    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Butter, softened</td>
+          <td>½ cup</td>
+        </tr>
+        <tr>
+          <td>Olive oil</td>
+          <td>3 tablespoons</td>
+        </tr>
+        <tr>
+          <td>Minced cloves of garlic</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Garlic powder</td>
+          <td>1 tablespoon</td>
+        </tr>
+        <tr>
+          <td>Chopped fresh parsley</td>
+          <td>1 tablespoon</td>
+        </tr>
+        <tr>
+          <td>Salt</td>
+          <td>½ teaspoon</td>
+        </tr>
+        <tr>
+          <td>French bread</td>
+          <td>1 loaf</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong><u>Directions:</u></strong>
+      <li>
+        <strong>Step 1:</strong> Preheat the oven to 400 degrees F (200 degrees
+        C). Line a baking sheet with aluminum foil.
+      </li>
+      <li>
+        <strong>Step 2:</strong> Mix butter, olive oil, minced garlic, garlic
+        powder, parsley, and salt in a bowl until well combined.
+      </li>
+      <li>
+        <strong>Step 3:</strong> Cut bread loaf into 1-inch slices and spread
+        garlic mixture over each slice. Place each on a baking sheet. Wrap with
+        additional aluminum foil.
+      </li>
+      <li>
+        <strong>Step 4:</strong> Bake in the preheated oven until bread is
+        crispy and heated through, 25 to 30 minutes.
+      </li>
+    </p>
+    <em
+      >Source:
+      <a href="https://www.allrecipes.com/recipe/273325/homemade-garlic-bread/"
+        >https://www.allrecipes.com/recipe/273325/homemade-garlic-bread/</a
+      ></em
+    >
+  </body>
 </html>
